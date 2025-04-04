@@ -20,10 +20,7 @@ public class CalcTest {
 
         if (result == -1) {
             System.out.println("Cannot divide by 0.");
-        } else {
-            System.out.println("result: " + result);
         }
-
         assertEquals(-1, result, 0.0001);
     }
 
